@@ -1,0 +1,215 @@
+﻿@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNovaT-Thin.ttf");
+}
+
+
+/*@*WelcomeImages*@*/
+.style_welcome {
+    background-image: url("../media/welcome_pageBack.jpg");
+}
+
+.img-fluid {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.welcome_text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+/*@*WelcomeImages*@*/
+
+/*Услуги*/
+.style_service {
+    font-family: "Proxima Nova";
+}
+
+.block-fiature {
+    background-color: #28355f;
+}
+
+.img-wrap {
+    position: relative;
+}
+
+
+    .img-wrap h2 {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        padding: 30px;
+        text-shadow: 1px 1px 1px black, 0 0 1em black;
+    }
+
+.album h2 {
+    font-family: 'Proxima Nova';
+}
+/*Услуги*/
+
+/*Клиенты*/
+
+.clients_block {
+    background-color: #EBEBEB;
+    padding-bottom: 30px;
+}
+
+    .clients_block img {
+        -webkit-filter: grayscale(90%);
+        -moz-filter: grayscale(90%);
+        -ms-filter: grayscale(90%);
+        -o-filter: grayscale(90%);
+        filter: grayscale(90%);
+        filter: gray;
+        -webkit-transition: all 0.5s;
+        -moz-transition: all 0.5s;
+        -o-transition: all 0.5s;
+        transition: all 0.5s;
+    }
+
+        .clients_block img:hover {
+            -webkit-filter: none;
+            -moz-filter: none;
+            -ms-filter: none;
+            -o-filter: none;
+            filter: none;
+            filter: none;
+        }
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1rem;
+}
+
+.brands__item {
+    background: #eee;
+    list-style-type: none;
+}
+
+    .brands__item img {
+        display: block;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .brands__item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+/*Клиенты*/
+
+/*Почему мы*/
+.rounded-circle {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.feature__item {
+    list-style-type: none;
+    padding-bottom: 100px;
+}
+    .feature__item img {
+        display: block;
+        max-width: 100%;
+    }
+
+    .feature__item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .feature__item h1 {
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .feature__item p {
+        text-align: center;
+        font-size: 14px;
+        font-weight: lighter;
+    }
+/*Почему мы*/
+
+
+/*Работа с нами*/
+.cont_work_us {
+    background-color: #EBEBEB;
+    background-size: cover;
+}
+/*Блок1*/
+.block_1 img {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: left
+}
+.block_1_text h1 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+.block_1_text p{
+    padding-top: 10px;
+}
+
+/*Блок2*/
+.block_2 {
+    text-align: right;
+    padding-top: 250px;
+}
+
+.block_2 img {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: right;
+    text-align: right;
+}
+
+.block_2_text h1 {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.block_2_text p {
+
+}
+/*Блок3*/
+.block_3 {
+    padding-top: 250px;
+    padding-bottom: 300px;
+   
+}
+.block_3 img {
+    height: 400px;
+    width: 400px;
+    margin: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    float: left
+}
+
+.block_3_text h1 {
+    padding-top: 20px;
+    font-weight: bold;
+
+}
+
+.block_3_text p {
+   
+}
+/*Работа с нами*/

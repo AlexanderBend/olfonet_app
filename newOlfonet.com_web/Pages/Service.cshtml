@@ -1,0 +1,207 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Service page";
+}
+<head>
+    <link rel="stylesheet" href="~/css/service.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap/dist/css/bootstrap.css" />
+</head>
+
+@*Service Welcome*@
+<div class="style_welcome img-fluid">
+    <sector class="py-5 text-center container text-white ">
+        <div class="welcome_text px-3 my-3 text-center">
+            <h1 class="display-6 fw-bold">ОБСЛУЖИВАНИЕ</h1>
+            <h3 class="lead mb-3">
+                Качественная поддержка вашей компьютерной техники и серверов вне зависимости от
+                уровня сложности, разветвленности сети, масштаба баз данных.
+            </h3>
+        </div>
+    </sector>
+</div>
+@*Service Welcome*@
+
+@*Service Block_1*@
+<div>
+    <div class="container-fluid block">
+        <h1 class="block_welcomeText container ">
+            АБОНЕНТСКОЕ ОБСЛУЖИВАНИЕ <br />
+            КОМПЬЮТЕРНОЙ ТЕХНИКИ
+        </h1>
+
+        <h3 class="block_text container">
+            Компаниям для которых штатный системный администратор или  IT отдел - неоправданно большие расходы
+        </h3>
+    </div>
+
+    <div id="abonPC" class="block_Serv img-fluid_block_serv">
+        <h1 class="block_serv_text container ">
+            АБОНЕНТСКОЕ ОБСЛУЖИВАНИЕ <br />
+            ВКЛЮЧАЕТ В СЕБЯ
+        </h1>
+        <h3 class="block_serv_Wtext container">
+            - администрирование, мониторинг <br />
+            - установка и обновление системного ПО <br />
+            - устранение неисправностей и модернизация <br />
+            - планово-профилактические работы <br />
+            - поддержка работоспособности серверов и улучшение производительности <br />
+            - сохранность данных и резервное копирование <br />
+
+        </h3>
+
+    </div>
+</div>
+@*Service Block_1*@
+
+
+@*Service Block_2*@
+<div>
+    <div id="auditIT" class="container-fluid block">
+        <h1 class="block_welcomeText container ">
+            ИТ - АУДИТ
+        </h1>
+        <h3 class="block_text container">
+            Подскажем где есть "узкие" места в безопасности и отказоустойчивости системы, предложим варианты решения
+        </h3>
+    </div>
+
+    <div class="block_Serv_2 img-fluid_block_serv">
+        <h1 class="block_serv_text container ">
+            ИТ - АУДИТ ВКЛЮЧАЕТ В СЕБЯ
+        </h1>
+        <h3 class="block_serv_Wtext container">
+            - анализ состояния компьютерной техники<br />
+            - анализ состояние структурированной кабельной системы - устранение неисправностей и модернизация<br />
+            - анализ состояния серверной инфраструктуры<br />
+            - проверка  сетевого оборудования<br />
+            - документальный отчет по результатам аудита<br />
+            - предложения по развитию IT инфраструктуры<br />
+        </h3>
+
+    </div>
+</div>
+@*Service Block_2*@
+
+@*Service Block_3*@
+<div>
+    <div id="telCCTV" class="container-fluid block">
+        <h1 class="block_welcomeText container ">
+            ВНЕДРЕНИЕ IP-ТЕЛЕФОНИИ
+            И ВИДЕОНАБЛЮДЕНИЯ
+        </h1>
+
+        <h3 class="block_text container">
+            Позволяет решать задачи подсчета, анализа, детекции, квалификации, наличия, позиционирования, учета и контроля
+        </h3>
+    </div>
+
+    <div class="block_Serv_3 img-fluid_block_serv_3">
+        <h1 class="block_serv_text container ">
+            ВНЕДРЕНИЕ IP - ТЕЛЕФОНИИ
+        </h1>
+        <h3 class="block_serv_Wtext container">
+            -  IP-телефония помогает сократить ежемесячные операционные расходы на связь<br />
+            - повышает эффективность коммуникаций<br />
+            - проста в использовании<br />
+            - обеспечивает высокое качество связи<br />
+            - добавляет инноваций и современности офису<br />
+            - высокое качество связи<br />
+
+        </h3>
+
+        <h1 class="block_serv_text container ">
+            ВИДЕОНАБЛЮДЕНИЕ
+        </h1>
+        <h3 class="block_serv_Wtext container">
+            - обеспечивает безопасность.<br />
+            - снижение вероятности противоправных действии<br />
+            - контроль бизнес-процессов<br />
+            - контроль качества работы сотрудников<br />
+        </h3>
+    </div>
+</div>
+@*Service Block_3*@
+
+@*Service Block_4*@
+<div>
+    <div id="bitrixCRM" class="container-fluid block">
+        <h1 class="block_welcomeText container ">
+            Интеграция IP<br />
+            телефонии с CRM Битрикс 24
+        </h1>
+
+        <h3 class="block_text container">
+            VoIP телефония: правильная экономия для вашего бизнеса
+        </h3>
+    </div>
+
+    <div class="block_Serv_4 img-fluid_block_serv">
+        <h1 class="block_serv_text container ">
+            Интеграция IP телефонии с CRM Битрикс 24
+        </h1>
+        <h3 class="block_serv_Wtext container">
+            - автоматически открывается карточка звонка, в которой видна вся краткая информация о клиенте<br />
+            - автоматическое заполнение истории звонков в карточке клиента (компании, контакта, сделки)<br />
+            - фиксация всех пропущенных звонков с автоматическим созданием напоминания о необходимости перезвона<br />
+            - количество входящих линий не ограничено. Звонки поступают в единую очередь и распределяются на всех менеджеров<br />
+        </h3>
+
+    </div>
+</div>
+@*Service Block_4*@
+
+@*Service Block_5*@
+<div>
+    <div id="skudSYS"  class="container-fluid block">
+        <h1 class="block_welcomeText container ">
+            Внедрение систем<br />
+            контроля и управления доступом
+        </h1>
+
+        <h3 class="block_text container">
+            Регистрация входа-выхода объектов (людей, транспорта) на заданной территории<br /> через «точки прохода»: двери, ворота, КПП.
+        </h3>
+    </div>
+
+    <div class="block_Serv_5 img-fluid_block_serv">
+        <h1 class="block_serv_text container ">
+            Внедрение систем контроля и управления доступом
+        </h1>
+        <h3 class="block_serv_Wtext container">
+            - ограничение доступа на охраняемую территорию<br />
+            - определение круга лиц, имеющих доступ в помещение<br />
+            - учет рабочего времени персонала<br />
+            - обеспечение безопасности охраняемого объекта<br />
+        </h3>
+    </div>
+</div>
+@*Service Block_5*@
+
+
+@*Service Block_6*@
+<div>
+    <div id="serverSYS" class="container-fluid block">
+        <h1 class="block_welcomeText container ">
+            ОБСЛУЖИВАНИЕ СЕРВЕРНОЙ<br /> ИНФРАСТРУКТУРЫ
+        </h1>
+
+        <h3 class="block_text container">
+            Обслуживание серверов представляет собой важный этап поддержки работоспособности сети.<br />
+            Работу любого компьютерного оборудования невозможно представить без участия специалистов.
+        </h3>
+    </div>
+
+    <div class="block_Serv_6 img-fluid_block_serv">
+        <h1 class="block_serv_text container ">
+            ОБСЛУЖИВАНИЕ СЕРВЕРНОЙ ИНФРАСТРУКТУРЫ
+        </h1>
+        <h3 class="block_serv_Wtext container">
+            - администрирование, мониторинг<br />
+            - установка и обновление системного ПО<br />
+            - устранение неисправностей и модернизация<br />
+            - сохранность данных и резервное копирование<br />
+        </h3>
+    </div>
+</div>
+@*Service Block_6*@

@@ -1,0 +1,103 @@
+﻿/*contact welcome*/
+.block_black {
+    background-color: black;
+    position: relative;
+    padding: 30px;
+}
+
+.block_Text_header_black {
+    color: white;
+    padding: 30px;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.block_Text_black {
+    color: white;
+    padding: 20px;
+    font-size: 14pt;
+    font-weight: lighter;
+}
+/*contact welcome*/
+
+/*contact info*/
+.contact_info {
+    padding: 30px;
+}
+    .contact_info h3 {
+        font-weight: lighter;
+    }
+    .contact_info h1 {
+        font-weight: bold;
+    }
+/*contact info*/
+
+
+/*приемущества*/
+.rounded-circle {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    object-fit: cover;
+}
+
+.feature__item {
+    list-style-type: none;
+    padding-bottom: 100px;
+}
+
+    .feature__item img {
+        display: block;
+        max-width: 100%;
+    }
+
+    .feature__item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .feature__item h1 {
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .feature__item p {
+        text-align: center;
+        font-size: 24px;
+        font-weight: lighter;
+    }
+
+.brands {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 1rem;
+}
+
+.brands__item {
+    background: #eee;
+    list-style-type: none;
+}
+
+    .brands__item img {
+        display: block;
+        max-width: 100%;
+        object-fit: contain;
+    }
+
+    .brands__item a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+.block_black_brands {
+    background-color: white;
+    position: relative;
+    padding: 30px;
+    color: black;
+}
+/*приемущества*/

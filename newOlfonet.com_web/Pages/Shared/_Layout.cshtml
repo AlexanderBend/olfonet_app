@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - newOlfonet.com_web</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/newOlfonet.com_web.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container ">
+                <a class="navbar-brand" asp-page="/Index">
+                    <img src="../media/Olfonet logo rus.png" width="240"
+                         height="70" alt="Пример">
+                    </img>
+                </a>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-around nav_style">
+                    <ul class="navbar-nav flex-grow-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="Service">ОБСЛУЖИВАНИЕ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="itStandarts">ИТ СТАНДАРТЫ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="aboutUs">О НАС</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="Contact">КОНТАКТЫ</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+    <div class="">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer >
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>
+                        г. Минск, ул Бехтерева, дом 7, офис 23 <br />
+                        +375 (17) 555-00-55, +375 (29) 677-70-90<br />
+                        mail@olfonet.by - для покупателей<br />
+                    </p>
+                </div>
+                <div class="col col-lg-2">
+                </div>
+                <div class="col-md-auto">
+                    <img src="../media/Olfonet logo rus.png" width="240"
+                         height="70" alt="Пример">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

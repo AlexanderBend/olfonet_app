@@ -1,0 +1,110 @@
+﻿/*@*WelcomeImages*@*/
+.style_welcome {
+    background-image: url("../media/service_page/welcom_service.jpg");
+}
+
+.img-fluid {
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.welcome_text {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+/*@*WelcomeImages*@*/
+
+
+/*@*Service Block_1*@*/
+
+.block{
+    background-color: black;
+    padding:30px;
+}
+.block_welcomeText {
+    color: white;
+    padding: 30px;
+    font-size: 20pt;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+.block_text {
+    color: white;
+    font-size: 14pt;
+}
+
+.block_Serv {
+    background-image: url("../media/service_page/pc_service.jpg");
+}
+.img-fluid_block_serv {
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+.block_serv_text {
+    color: white;
+    padding: 30px;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: bold;
+}
+.block_serv_Wtext {
+    color: white;
+    padding: 30px;
+    font-size: 18pt;
+    font-weight: lighter;
+
+}
+/*@*Service Block_1*@
+*/
+
+/*@*Service Block_2*@
+*/
+.block_Serv_2 {
+    background-image: url("../media/service_page/audit_service.jpg");
+}
+/*@*Service Block_2*@
+*/
+
+/*@*Service Block_3*@
+*/
+.block_Serv_3 {
+    background-image: url("../media/service_page/cctv_service.jpg");
+}
+.img-fluid_block_serv_3 {
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+/*@*Service Block_3*@
+*/
+
+/*@*Service Block_4*@
+*/
+.block_Serv_4 {
+    background-image: url("../media/service_page/crm_service.jpg");
+}
+/*@*Service Block_4*@
+*/
+
+/*@*Service Block_5*@
+*/
+.block_Serv_5 {
+    background-image: url("../media/service_page/skud_service.jpg");
+}
+/*@*Service Block_5*@
+*/
+/*@*Service Block_6*@
+*/
+.block_Serv_6 {
+    background-image: url("../media/service_page/server_service.jpg");
+}
+/*@*Service Block_6*@
+*/

@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNovaT-Thin.ttf");
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+/*===============================================*/
+/*Панель навигации*/
+.nav_style {
+    font-family: 'Proxima Nova';
+    font-weight: bold;
+}
+.nav_style li {
+    padding-left: 50px;
+}

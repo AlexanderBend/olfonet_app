@@ -1,0 +1,180 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "About";
+}
+<head>
+    <link rel="stylesheet" href="~/css/about.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap/dist/css/bootstrap.css" />
+</head>
+
+@*about Welcome*@
+<div>
+    <div class="container-fluid block_black">
+        <h1 class="block_Text_header_black container ">
+           ПОЧЕМУ МЫ ?
+        </h1>
+        <h3 class="block_Text_black container">
+            Технологическая компания, которая продает оборудование и предоставляет услуги для комфортной 
+            и прибыльной работы компаний в Беларуси.
+        </h3>
+    </div>
+</div>
+@*about Welcome*@
+
+@*stepsChoose*@
+@*таймлайн*@
+<div class="container py-5">
+    <div class="page-header">
+        <h1>Как мы работаем</h1>
+    </div>
+    <ul class="timeline">
+        <li>
+            <div class="timeline-badge info"><p>1</p><i class="glyphicon glyphicon-check"></i></div>
+            <div class="timeline-panel span3 wow bounceInLeft">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">
+                        Согласовываем и подписываем договор
+                    </h4>
+                </div>
+                <div class="timeline-body">
+                    <p>
+                        Обсуждаем, согласовываем и подписываем SLA (соглашение об уровне качества)и NDA
+                        (соглашение о конфиденциальности), обсуждаем способы совместной работы.
+                        Договариваемся обо всем "на берегу". назначаем дату первичного аудита.
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted ">
+            <div class="timeline-badge info"><p>2</p><i class="glyphicon glyphicon-credit-card"></i></div>
+            <div class="timeline-panel span3 wow bounceInRight">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">
+                        Проводим первичный аудит
+                    </h4>
+                </div>
+                <div class="timeline-body ">
+                    <p>
+                        В согласованный день наши технические специалисты приедут в ваш офис для проведения стартового аудита.
+                        Они подойдут к каждому компьютеру, спросят у каждого работника какие есть вопросы и проблемы.
+                        То что можно исправить сразу - исправят. Оставят визитку с контактами на каждом рабочем месте.
+                        Объяснят как взаимодействовать в случае необходимости.
+                        В течение следующей недели будет происходить обработка анализ и документирование информации полученной во время аудита.
+                        Но ваши сотрудники и ваши компьютеры уже обеспечены техподдержкой.
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="timeline-badge info"><p>3</p><i class="glyphicon glyphicon-credit-card"></i></div>
+            <div class="timeline-panel span3 wow bounceInLeft">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Докладываем вам результаты аудита</h4>
+                </div>
+                <div class="timeline-body">
+                    <p>
+                        На следующую встречу к вам приедут менеджер и технический специалист. Они подробно расскажут Вам о состоянии вашей IT инфраструктуры.
+                        Акцентируют внимание на "узких" местах. Предложат варианты решения вопросов.
+                        Результатом этой встречи  должен быть принятый Вами план и согласованный график необходимых работ по приведению техники в оптимальное состояние.
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li class="timeline-inverted">
+            <div class="timeline-badge info"><p>4</p><i class="glyphicon glyphicon-check"></i></div>
+            <div class="timeline-panel span3 wow bounceInRight">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">
+                        Воплощаем в жизнь выстроенную стратегию
+                    </h4>
+                </div>
+                <div class="timeline-body">
+                    <p>
+                        В первые месяцы работы мы будем следовать намеченному плану и графику работ.
+                        Все обязательные работы выполняются в соответствии с регламентами.
+                        Настраиваем и отрабатываем оговоренную схему взаимодействия.
+                    </p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="timeline-badge info"><p>5</p><i class="glyphicon glyphicon-floppy-disk"></i></div>
+            <div class="timeline-panel span3 wow bounceInLeft">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Стабильная, планируемая и контролируемая работа</h4>
+                </div>
+                <div class="timeline-body">
+
+                    <p>
+                        Закончив все работы по составленному плану,
+                        Вы получите отлаженную работающую систему, которую мы будем поддерживать на должном уровне,
+                        постоянно проводить текущий аудит, давать свои рекомендации, вовремя предоставлять все необходимые отчеты.
+                    </p>
+                </div>
+            </div>
+        </li>
+
+        <li class="timeline-inverted">
+            <div class="timeline-badge info"><p>6</p><i class="glyphicon glyphicon-thumbs-up"></i></div>
+            <div class="timeline-panel span3 wow bounceInRight">
+                <div class="timeline-heading">
+                    <h4 class="timeline-title">Бонус!</h4>
+                </div>
+                <div class="timeline-body">
+                    <p>
+                        Если вы принимаете решение о необходимости внедрения новой системы в вашу IT инфраструктуру, мы с удовольствием Вам в этом поможем.
+                        Проконсультируем, разработаем концепцию, расскажем про все нюансы, подберем оборудование, выставим счета, поставим, смонтируем,
+                        выполним пуско-наладочные работы, возьмем на обслуживание.
+                        При этом у вас нет ни каких обязательств по оплате выставленных нами счетов. Решение остается за Вами.
+                    </p>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+@*Таймлайн*@
+@*stepsChoose*@
+
+
+@*НАШИ ПРИЕМУЩЕСТВА*@
+<div class="block_black_brands">
+    <sector class="py-5 text-center container ">
+        <div class="px-4 py-2 my-2 text-center">
+            <h1 class="display-6">НАШИ ПРИЕМУЩЕСТВА</h1>
+        </div>
+    </sector>
+    <ul class="brands container">
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/about/serv_key.jpg" alt="Blockchain">
+            </a>
+            <h1>СЕРВИС ПОД КЛЮЧ</h1>
+            <p>Весь спектр услуг: идея-решение-поставка-монтаж-пусконаладка -обслуживание </p>
+        </li>
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/about/solution.jpg" alt="Blockchain">
+            </a>
+            <h1>ГИБКИЕ РЕШЕНИЯ</h1>
+            <p>Всегда индивидуальный подход к вашей задаче </p>
+        </li>
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/about/quality.jpg" alt="Blockchain">
+            </a>
+            <h1>ГАРАНТИЯ КАЧЕСТВА</h1>
+            <p>Гарантийные обязательства на оборудование и услуги</p>
+        </li>
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/about/complex_solution.jpg" alt="Blockchain">
+            </a>
+            <h1>КОМПЛЕКСНОЕ РЕШЕНИЕ</h1>
+            <p>При необходимости спроектируем и проложим сеть, интегрируем между собой телефонию, видеонаблюдение, СКУД и другие ваши IT-системы </p>
+        </li>
+    </ul>
+</div>
+@*НАШИ ПРИЕМУЩЕСТВА*@
+
+

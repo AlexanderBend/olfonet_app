@@ -1,0 +1,249 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<head>
+    <link rel="stylesheet" href="~/css/index.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/bootstrap/dist/css/bootstrap.css" />
+</head>
+@*WelcomeImages*@
+<div class="style_welcome img-fluid">
+    <sector class="py-5 text-center container text-white ">
+        <div class="welcome_text px-4 my-5 text-center">
+            <h1 class="display-6 fw-bold">Мы видим будущее ИТ-аутсорсинга</h1>
+            <h3 class="lead mb-3">Полная или частична поддержка, обслуживание и модернизация ИТ-инфраструктуры </h3>
+        </div>
+    </sector>
+</div>
+@*WelcomeImages*@
+
+
+@*Сервис*@
+<div class="album py-5 bg-light ">
+    <div class="container">
+        <sector class="py-5 text-center container">
+            <div class="px-4 py-2 my-2 text-center">
+                <h1 class="style_service">НАШ СЕРВИС</h1>
+                <h3 class="lead mb-3">
+                    Штат компетентных специалистов, который будет заботиться о вашей технике, программном
+                    обеспечении и сохранности данных вовремя, не дожидаясь сбоев.
+                </h3>
+            </div>
+        </sector>
+
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+
+            <a class="serv_hover" href="/Service/#abonPC">
+                <div class="col">
+                    <div class="card shadow-sm text-white img-wrap">
+
+                        <img height="280" src="/media/service/serv_1.jpg">
+                        <h2>
+                            Абонентское<br />
+                            обслуживание<br />
+                            компьютерной<br />
+                            техники<br />
+
+                        </h2>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/Service/#auditIT">
+                <div class="col">
+                    <div class="card shadow-sm text-white img-wrap">
+                        <img height="280" src="/media/service/serv_2.jpg">
+                        <h2>
+                            IT аудит
+                        </h2>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/Service/#telCCTV">
+                <div class="col">
+                    <div class="card shadow-sm text-white img-wrap">
+                        <img height="280" src="/media/service/serv_3.jpg">
+                        <h2>
+                            Внедрение IP телефонии<br />
+                            и видеонаблюдения
+
+                        </h2>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/Service/#bitrixCRM">
+                <div class="col">
+                    <div class="card shadow-sm text-white img-wrap">
+                        <img height="280" src="/media/service/serv_4.jpg">
+                        <h2>
+                            Интеграция IP<br />
+                            телефонии с CRM<br />
+                            Битрикс24<br />
+
+                        </h2>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/Service/#skudSYS">
+                <div class="col">
+                    <div class="card shadow-sm text-white img-wrap">
+                        <img height="280" src="/media/service/serv_5.jpg">
+                        <h2>
+                            Внедрение систем<br />
+                            контроля и управления<br />
+                            доступом<br />
+
+                        </h2>
+                    </div>
+                </div>
+            </a>
+
+            <a href="/Service/#serverSYS">
+                <div class="col">
+                    <div class="card shadow-sm text-white img-wrap">
+                        <img height="280" src="/media/service/serv_6.jpg">
+                        <h2>
+                            Обслуживание<br />
+                            серверной<br />
+                            инфраструктуры<br />
+
+                        </h2>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+@*Сервис*@
+
+@*Компании*@
+
+<div class="clients_block">
+
+
+    <sector class="py-5 text-center container ">
+        <div class="px-4 py-2 my-2 text-center">
+            <h1 class="display-6">НАМ ДОВЕРЯЮТ УСПЕШНЫЕ КОМПАНИИ</h1>
+        </div>
+    </sector>
+    <ul class="brands container">
+        <li class="brands__item">
+            <a href="#">
+                <img src="~/media/company/colorformula_logo.png" alt="Blockchain">
+
+            </a>
+        </li>
+        <li class="brands__item">
+            <a href="#">
+                <img src="~/media/company/vest_logo.png" alt="Blockchain">
+            </a>
+        </li>
+        <li class="brands__item">
+            <a href="#">
+                <img src="~/media/company/windowood_logo.png" alt="Blockchain">
+            </a>
+        </li>
+        <li class="brands__item">
+            <a href="#">
+                <img src="~/media/company/mdf_logo.png" alt="Blockchain">
+            </a>
+        </li>
+    </ul>
+</div>
+@*Компании*@
+
+@*ПОЧЕМУ МЫ*@
+<div>
+
+    <sector class="py-5 text-center container ">
+        <div class="px-4 py-2 my-2 text-center">
+            <h1 class="display-6">ПОЧЕМУ МЫ</h1>
+        </div>
+    </sector>
+    <ul class="brands container">
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/our_feathers/bussines_one.jpg" alt="Blockchain">
+            </a>
+            <h1>РАБОТАЕМ С 2008 ГОДА</h1>
+            <p>Большой опыт в решении технических задач</p>
+        </li>
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/our_feathers/partners_two.jpg" alt="Blockchain">
+            </a>
+            <h1>ПОЧТИ 100 ПАРТНЕРОВ</h1>
+            <p>Доверяют нам обслуживание IT-инфраструктуры</p>
+        </li>
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/our_feathers/employeer_three.jpg" alt="Blockchain">
+            </a>
+            <h1>Стабильный штат</h1>
+            <p>Большинство наших специалистов более 5 лет работают в компании</p>
+        </li>
+        <li class="feature__item">
+            <a href="#">
+                <img class="rounded-circle" src="~/media/our_feathers/office_four.jpg" alt="Blockchain">
+            </a>
+            <h1>ПОЛНОЦЕННЫЕ ФИЛИАЛЫ</h1>
+            <p>Офисы в Гродно,Минске,Борисове</p>
+        </li>
+    </ul>
+</div>
+@*ПОЧЕМУ МЫ*@
+
+@*Работа с нами*@
+<div class="cont_work_us">
+    <div class="container">
+        <sector class="py-5 text-center container ">
+            <div class="px-4 py-2 my-2 text-center">
+                <h1 class="display-6">РАБОТА С НАМИ</h1>
+            </div>
+        </sector>
+        <div class="block_1">
+            <img src="~/media/work_us/work_us_one.jpg" alt="Blockchain">
+            <div class="block_1_text">
+                <h1>Выгодно и надежно</h1>
+                <p>
+                    Вы экономите деньги, время и управленческие ресурсы.<br />
+                    Мы следим за современными решениями и применяем их в комплексе с проверенными <br />
+                    временем технологиями и своим многолетним опытом.<br />
+                    Все важные для вас детали учтены в договоре на этапе согласования
+                </p>
+            </div>
+        </div>
+
+        <div class="block_2">
+            <img src="~/media/work_us/work_us_two.jpg" alt="Blockchain">
+            <div class="block_1_text">
+                <h1>Комплексно и качественно</h1>
+                <p>
+                    У нас есть специалисты в разных направлениях IT. мы можем обслуживать все IP системы предприятия.<br />
+                    Все необходимые работы выполняются в соответствии с графиками, международными стандартами и регламентами. <br />
+                    Ваши данные надежно сохраняются.
+                </p>
+            </div>
+        </div>
+
+        <div class="block_3">
+            <img src="~/media/work_us/work_us_three.jpg" alt="Blockchain">
+            <div class="block_1_text">
+                <h1>Профессионально и честно</h1>
+                <p>
+                    Мы готовы взять на себя заботы по подбору технического решения, его реализации и обслуживанию в любом разделе
+                    IT-инфрастуктуры. Вы получаете работающую IP систему.<br />
+                    Нам важна наша репутация - ваши данные останутся только с вами. Нам это важно.<br />
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+@*Работа с нами*@
+
